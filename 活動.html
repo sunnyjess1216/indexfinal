@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<!--
+	Strongly Typed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>活動</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+            <section id="header">
+                <div class="container">
+
+                    <!-- Logo -->
+                        <h1 id="logo"style="font-size: 70px;">活動</a></h1>
+                        <p>本店不定時推出各種優惠活動和抽獎，多加關注我們可以得到更多消息</p>
+
+                    <!-- Nav -->
+                        <nav id="nav">
+                            <ul>
+                                <li><a class="icon solid fa-home" href="爬寵首頁.html"><span>首頁</span></a></li>
+                                <li><a class="icon fa-file" href="飼養須知.html"><span>飼養須知</span></a></li>
+                                <li><a class="icon solid fa-map" href="爬寵設備.html"><span>爬寵/設備</span></a></li>
+                                <li><a class="icon solid fa-retweet" href="餌料.html"><span>餌料</span></a></li>
+                                <li><a class="icon solid fa-sitemap" href="活動.html"><span>活動</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+				</section>
+                <strong><marquee behavior="scroll" direction="left" scrollamount="5" style="color: rgb(157, 255, 0);font-size: 30px; background-color: #5c793d;">2025新年特惠活動開跑啦!1.來店消費滿5000折1000 2.買幼年爬寵送基本飼養套組限量100組 3.爬寵扭蛋 一抽1000 抽抽有獎 各式爬寵等你帶回家 以上活動僅在實體店面進行</marquee><strong></strong>
+
+				<style>
+					body {
+					  font-family: Arial, sans-serif;
+					  margin: 0;
+					  padding: 0;
+					  background-color: #f9f9f9;
+					}
+				
+					h1 {
+					  text-align: center;
+					  margin: 20px 0;
+					  color: #333;
+					}
+				
+					.category {
+					  margin: 20px auto;
+					  width: 80%;
+					  max-width: 1400px;
+					  background-color: #fff;
+					  border-radius: 10px;
+					  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+					  padding: 20px;
+					}
+				
+					.category h2 {
+					  margin-bottom: 10px;
+					  font-size: 1.8em;
+					  color: #444;
+					}
+				
+					.carousel-container {
+					  overflow: hidden;
+					  position: relative;
+					}
+				
+					.carousel {
+					  display: flex;
+					  transition: transform 0.5s ease-in-out;
+					}
+				
+					.carousel-item {
+					  min-width: 300px;
+					  margin-right: 20px;
+					  text-align: center;
+					  background-color: #f4f4f4;
+					  border-radius: 10px;
+					  padding: 15px;
+					  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+					}
+				
+					.carousel-item img {
+					  max-width: 100%;
+					  max-height: 200px;
+					  margin-bottom: 10px;
+					  border-radius: 10px;
+					}
+				
+					.carousel-item h3 {
+					  font-size: 1.2em;
+					  color: #333;
+					}
+				
+					.carousel-item p {
+					  font-size: 0.9em;
+					  color: #666;
+					  margin: 5px 0;
+					}
+				
+					.carousel-item .price {
+					  font-size: 1em;
+					  color: #e60023;
+					  font-weight: bold;
+					}
+				
+					.carousel-buttons {
+					  position: absolute;
+					  top: 50%;
+					  width: 100%;
+					  display: flex;
+					  justify-content: space-between;
+					  transform: translateY(-50%);
+					}
+				
+					.carousel-buttons button {
+					  background-color: rgba(0, 0, 0, 0.5);
+					  color: #fff;
+					  border: none;
+					  padding: 10px 20px;
+					  cursor: pointer;
+					  font-size: 1em;
+					  border-radius: 5px;
+					  transition: background-color 0.3s;
+					}
+				
+					.carousel-buttons button:hover {
+					  background-color: rgba(0, 0, 0, 0.7);
+					}
+				
+					.carousel-buttons button:disabled {
+					  background-color: rgba(0, 0, 0, 0.3);
+					  cursor: not-allowed;
+					}
+				  </style>
+				</head>
+				<body>
+				 <!-- 配方飼料分類 -->
+				 <div class="category">
+					<h2>2025新年特惠活動</h2>
+					<div class="carousel-container">
+					  <div class="carousel" id="carousel1">
+						<div class="carousel-item">
+						  <img src="images/5-1.jpg" alt="5-1">
+						  <h3>滿5000折1000</h3>
+						</div>
+						<div class="carousel-item">
+						  <img src="images/1111.jpg" alt="飼養套組">
+						  <h3>買幼體送基礎飼養套組</h3>
+						</div>
+						<div class="carousel-item">
+						  <img src="images/game.jpg" alt="抽">
+						  <h3>爬寵扭蛋</h3>>
+						  <p class="price">價格：NT$ 1000</p>
+						</div>
+					  </div>
+					  <div class="carousel-buttons">
+						<button onclick="prevCarousel(1)">←</button>
+						<button onclick="nextCarousel(1)">→</button>
+					  </div>
+					</div>
+				  </div> 
+  <script>
+	const carousels = {};
+
+	function updateCarousel(carouselId) {
+	  const carousel = document.getElementById(`carousel${carouselId}`);
+	  const items = carousel.querySelectorAll('.carousel-item');
+	  const currentIndex = carousels[carouselId] || 0;
+	  const offset = -currentIndex * (items[0].offsetWidth + 20);
+	  carousel.style.transform = `translateX(${offset}px)`;
+	}
+
+	function prevCarousel(carouselId) {
+	  const carousel = document.getElementById(`carousel${carouselId}`);
+	  const items = carousel.querySelectorAll('.carousel-item');
+	  carousels[carouselId] = Math.max((carousels[carouselId] || 0) - 1, 0);
+	  updateCarousel(carouselId);
+	}
+
+	function nextCarousel(carouselId) {
+	  const carousel = document.getElementById(`carousel${carouselId}`);
+	  const items = carousel.querySelectorAll('.carousel-item');
+	  carousels[carouselId] = Math.min(
+		(carousels[carouselId] || 0) + 1,
+		items.length - 1
+	  );
+	  updateCarousel(carouselId);
+	}
+
+	// 初始化所有跑馬燈
+	document.querySelectorAll('.carousel').forEach((carousel, index) => {
+	  carousels[index + 1] = 0;
+	  updateCarousel(index + 1);
+	});
+  </script>
+  <style>
+	hr {
+	  border: 0; /* 移除預設的邊框 */
+	  height: 2px; /* 設定分隔線高度 */
+	  background: linear-gradient(to right, #93ff50, #00a36d); /* 漸層顏色 */
+	  margin: 20px 0; /* 上下間距 */
+	}
+  </style>
+  <h6 style="font-size: 30px;">常駐活動</h6><br> 
+  <p>會員全館85折，生日再送500購物金</p>
+  <hr>
+  <p>來店消費打卡送飼料一份</p>
+
+  <style>
+	  .btn {
+		display: inline-block;
+		padding: 10px 20px;
+		font-size: 16px;
+		color: #fff;
+		background-color: #03ae6c;
+		border: none;
+		border-radius: 5px;
+		text-decoration: none;
+		text-align: center;
+		cursor: pointer;
+	  }
+	  .btn:hover {
+		background-color: #00b37a;
+	  }
+	</style>
+</body>
+</html>
